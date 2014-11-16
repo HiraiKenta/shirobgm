@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44BB13DE1A18580800584ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB13DD1A18580800584ECF /* main.m */; };
+		44BB13E11A18580800584ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB13E01A18580800584ECF /* AppDelegate.m */; };
+		44BB13E41A18580800584ECF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB13E31A18580800584ECF /* FirstViewController.m */; };
+		44BB13E71A18580800584ECF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB13E61A18580800584ECF /* SecondViewController.m */; };
+		44BB13EA1A18580800584ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BB13E81A18580800584ECF /* Main.storyboard */; };
+		44BB13EC1A18580800584ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BB13EB1A18580800584ECF /* Images.xcassets */; };
+		44BB13EF1A18580800584ECF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44BB13ED1A18580800584ECF /* LaunchScreen.xib */; };
+		44BB13FB1A18580800584ECF /* siro100BGMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB13FA1A18580800584ECF /* siro100BGMTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44BB13F51A18580800584ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44BB13D01A18580800584ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44BB13D71A18580800584ECF;
+			remoteInfo = siro100BGM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44BB13D81A18580800584ECF /* siro100BGM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siro100BGM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BB13DC1A18580800584ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BB13DD1A18580800584ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44BB13DF1A18580800584ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44BB13E01A18580800584ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44BB13E21A18580800584ECF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		44BB13E31A18580800584ECF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		44BB13E51A18580800584ECF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		44BB13E61A18580800584ECF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		44BB13E91A18580800584ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44BB13EB1A18580800584ECF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44BB13EE1A18580800584ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		44BB13F41A18580800584ECF /* siro100BGMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siro100BGMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BB13F91A18580800584ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BB13FA1A18580800584ECF /* siro100BGMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = siro100BGMTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44BB13D51A18580800584ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BB13F11A18580800584ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44BB13CF1A18580800584ECF = {
+			isa = PBXGroup;
+			children = (
+				44BB13DA1A18580800584ECF /* siro100BGM */,
+				44BB13F71A18580800584ECF /* siro100BGMTests */,
+				44BB13D91A18580800584ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44BB13D91A18580800584ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44BB13D81A18580800584ECF /* siro100BGM.app */,
+				44BB13F41A18580800584ECF /* siro100BGMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44BB13DA1A18580800584ECF /* siro100BGM */ = {
+			isa = PBXGroup;
+			children = (
+				44BB13DF1A18580800584ECF /* AppDelegate.h */,
+				44BB13E01A18580800584ECF /* AppDelegate.m */,
+				44BB13E21A18580800584ECF /* FirstViewController.h */,
+				44BB13E31A18580800584ECF /* FirstViewController.m */,
+				44BB13E51A18580800584ECF /* SecondViewController.h */,
+				44BB13E61A18580800584ECF /* SecondViewController.m */,
+				44BB13E81A18580800584ECF /* Main.storyboard */,
+				44BB13EB1A18580800584ECF /* Images.xcassets */,
+				44BB13ED1A18580800584ECF /* LaunchScreen.xib */,
+				44BB13DB1A18580800584ECF /* Supporting Files */,
+			);
+			path = siro100BGM;
+			sourceTree = "<group>";
+		};
+		44BB13DB1A18580800584ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44BB13DC1A18580800584ECF /* Info.plist */,
+				44BB13DD1A18580800584ECF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44BB13F71A18580800584ECF /* siro100BGMTests */ = {
+			isa = PBXGroup;
+			children = (
+				44BB13FA1A18580800584ECF /* siro100BGMTests.m */,
+				44BB13F81A18580800584ECF /* Supporting Files */,
+			);
+			path = siro100BGMTests;
+			sourceTree = "<group>";
+		};
+		44BB13F81A18580800584ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44BB13F91A18580800584ECF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44BB13D71A18580800584ECF /* siro100BGM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44BB13FE1A18580800584ECF /* Build configuration list for PBXNativeTarget "siro100BGM" */;
+			buildPhases = (
+				44BB13D41A18580800584ECF /* Sources */,
+				44BB13D51A18580800584ECF /* Frameworks */,
+				44BB13D61A18580800584ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = siro100BGM;
+			productName = siro100BGM;
+			productReference = 44BB13D81A18580800584ECF /* siro100BGM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44BB13F31A18580800584ECF /* siro100BGMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44BB14011A18580800584ECF /* Build configuration list for PBXNativeTarget "siro100BGMTests" */;
+			buildPhases = (
+				44BB13F01A18580800584ECF /* Sources */,
+				44BB13F11A18580800584ECF /* Frameworks */,
+				44BB13F21A18580800584ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44BB13F61A18580800584ECF /* PBXTargetDependency */,
+			);
+			name = siro100BGMTests;
+			productName = siro100BGMTests;
+			productReference = 44BB13F41A18580800584ECF /* siro100BGMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44BB13D01A18580800584ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					44BB13D71A18580800584ECF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					44BB13F31A18580800584ECF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 44BB13D71A18580800584ECF;
+					};
+				};
+			};
+			buildConfigurationList = 44BB13D31A18580800584ECF /* Build configuration list for PBXProject "siro100BGM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44BB13CF1A18580800584ECF;
+			productRefGroup = 44BB13D91A18580800584ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44BB13D71A18580800584ECF /* siro100BGM */,
+				44BB13F31A18580800584ECF /* siro100BGMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44BB13D61A18580800584ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BB13EA1A18580800584ECF /* Main.storyboard in Resources */,
+				44BB13EF1A18580800584ECF /* LaunchScreen.xib in Resources */,
+				44BB13EC1A18580800584ECF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BB13F21A18580800584ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44BB13D41A18580800584ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BB13E71A18580800584ECF /* SecondViewController.m in Sources */,
+				44BB13E11A18580800584ECF /* AppDelegate.m in Sources */,
+				44BB13E41A18580800584ECF /* FirstViewController.m in Sources */,
+				44BB13DE1A18580800584ECF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BB13F01A18580800584ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BB13FB1A18580800584ECF /* siro100BGMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44BB13F61A18580800584ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44BB13D71A18580800584ECF /* siro100BGM */;
+			targetProxy = 44BB13F51A18580800584ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44BB13E81A18580800584ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44BB13E91A18580800584ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44BB13ED1A18580800584ECF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44BB13EE1A18580800584ECF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44BB13FC1A18580800584ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44BB13FD1A18580800584ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44BB13FF1A18580800584ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = siro100BGM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44BB14001A18580800584ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = siro100BGM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44BB14021A18580800584ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = siro100BGMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/siro100BGM.app/siro100BGM";
+			};
+			name = Debug;
+		};
+		44BB14031A18580800584ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = siro100BGMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/siro100BGM.app/siro100BGM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44BB13D31A18580800584ECF /* Build configuration list for PBXProject "siro100BGM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BB13FC1A18580800584ECF /* Debug */,
+				44BB13FD1A18580800584ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44BB13FE1A18580800584ECF /* Build configuration list for PBXNativeTarget "siro100BGM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BB13FF1A18580800584ECF /* Debug */,
+				44BB14001A18580800584ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44BB14011A18580800584ECF /* Build configuration list for PBXNativeTarget "siro100BGMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BB14021A18580800584ECF /* Debug */,
+				44BB14031A18580800584ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44BB13D01A18580800584ECF /* Project object */;
+}
