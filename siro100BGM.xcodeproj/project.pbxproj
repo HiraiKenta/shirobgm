@@ -15,6 +15,11 @@
 		44BB13EC1A18580800584ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BB13EB1A18580800584ECF /* Images.xcassets */; };
 		44BB13EF1A18580800584ECF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44BB13ED1A18580800584ECF /* LaunchScreen.xib */; };
 		44BB13FB1A18580800584ECF /* siro100BGMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB13FA1A18580800584ECF /* siro100BGMTests.m */; };
+		44BB14061A18582600584ECF /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB14051A18582600584ECF /* Music.m */; };
+		44BB14081A18583400584ECF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BB14071A18583400584ECF /* AVFoundation.framework */; };
+		44BB140E1A1985C200584ECF /* Kassen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44BB140D1A1985C200584ECF /* Kassen.mp3 */; };
+		44BB14101A1985C700584ECF /* Tuisou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44BB140F1A1985C700584ECF /* Tuisou.mp3 */; };
+		44BB14181A199FE200584ECF /* Furinuki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44BB14171A199FE200584ECF /* Furinuki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,12 @@
 		44BB13F41A18580800584ECF /* siro100BGMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siro100BGMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BB13F91A18580800584ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44BB13FA1A18580800584ECF /* siro100BGMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = siro100BGMTests.m; sourceTree = "<group>"; };
+		44BB14041A18582600584ECF /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		44BB14051A18582600584ECF /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		44BB14071A18583400584ECF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		44BB140D1A1985C200584ECF /* Kassen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kassen.mp3; path = ../../Kassen.mp3; sourceTree = "<group>"; };
+		44BB140F1A1985C700584ECF /* Tuisou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tuisou.mp3; path = ../../Tuisou.mp3; sourceTree = "<group>"; };
+		44BB14171A199FE200584ECF /* Furinuki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Furinuki.mp3; path = ../../../Downloads/Furinuki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BB14081A18583400584ECF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +78,7 @@
 		44BB13CF1A18580800584ECF = {
 			isa = PBXGroup;
 			children = (
+				44BB14071A18583400584ECF /* AVFoundation.framework */,
 				44BB13DA1A18580800584ECF /* siro100BGM */,
 				44BB13F71A18580800584ECF /* siro100BGMTests */,
 				44BB13D91A18580800584ECF /* Products */,
@@ -90,6 +103,8 @@
 				44BB13E31A18580800584ECF /* FirstViewController.m */,
 				44BB13E51A18580800584ECF /* SecondViewController.h */,
 				44BB13E61A18580800584ECF /* SecondViewController.m */,
+				44BB14041A18582600584ECF /* Music.h */,
+				44BB14051A18582600584ECF /* Music.m */,
 				44BB13E81A18580800584ECF /* Main.storyboard */,
 				44BB13EB1A18580800584ECF /* Images.xcassets */,
 				44BB13ED1A18580800584ECF /* LaunchScreen.xib */,
@@ -101,6 +116,9 @@
 		44BB13DB1A18580800584ECF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44BB140F1A1985C700584ECF /* Tuisou.mp3 */,
+				44BB14171A199FE200584ECF /* Furinuki.mp3 */,
+				44BB140D1A1985C200584ECF /* Kassen.mp3 */,
 				44BB13DC1A18580800584ECF /* Info.plist */,
 				44BB13DD1A18580800584ECF /* main.m */,
 			);
@@ -205,6 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				44BB13EA1A18580800584ECF /* Main.storyboard in Resources */,
+				44BB14101A1985C700584ECF /* Tuisou.mp3 in Resources */,
+				44BB140E1A1985C200584ECF /* Kassen.mp3 in Resources */,
+				44BB14181A199FE200584ECF /* Furinuki.mp3 in Resources */,
 				44BB13EF1A18580800584ECF /* LaunchScreen.xib in Resources */,
 				44BB13EC1A18580800584ECF /* Images.xcassets in Resources */,
 			);
@@ -225,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44BB13E71A18580800584ECF /* SecondViewController.m in Sources */,
+				44BB14061A18582600584ECF /* Music.m in Sources */,
 				44BB13E11A18580800584ECF /* AppDelegate.m in Sources */,
 				44BB13E41A18580800584ECF /* FirstViewController.m in Sources */,
 				44BB13DE1A18580800584ECF /* main.m in Sources */,
@@ -418,6 +440,7 @@
 				44BB14001A18580800584ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44BB14011A18580800584ECF /* Build configuration list for PBXNativeTarget "siro100BGMTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				44BB14031A18580800584ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

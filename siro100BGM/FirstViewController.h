@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Music.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController<UITabBarControllerDelegate>
 
 
 @end
